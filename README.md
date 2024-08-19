@@ -61,16 +61,17 @@ I have return the take screen shot method in Base class that also gives path of 
 🔺 Scenario: Report Generating
 
 For Generating Report I used Extent Report and Extent Spark Reporter here we can customize the Report also.
-#
-#E2E FrameWork Architecture
-
-<img width="664" alt="E2E FrameWork Architecture" src="https://github.com/user-attachments/assets/fe7f194f-2d5a-4470-8aca-67472c03cefd">
-
 
 #
 🔺 Scenario: Concurency Issue (Synchronization Issue for test while Parallel Execution)
 
 I handled Concurency issue while Executing tests in Parallel by using ThreadLocal class which will help in setting the Unique Thread Id for particular Test
+
+
+#
+#E2E FrameWork Architecture
+
+<img width="664" alt="E2E FrameWork Architecture" src="https://github.com/user-attachments/assets/fe7f194f-2d5a-4470-8aca-67472c03cefd">
 
 
 
