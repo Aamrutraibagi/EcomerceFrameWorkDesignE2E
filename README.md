@@ -1,4 +1,4 @@
-# EcomerceFrameWorkDesignE2E
+# EcommerceFrameWorkDesignE2E
 Hybrid Robust E2E Frame work using Maven Build Management Tool, which include POM Design Pattern,Test NG Java Frame work, Test Data Driven Frame work, Cucumber BDD, and Data Driven Using JSON, Excel File.
 #
 🔺 Scenario: Handling Reusablity Class
