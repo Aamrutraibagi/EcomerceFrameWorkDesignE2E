@@ -1,63 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-16T18:31:30 IST" name="Default suite" finished-at="2024-08-16T18:31:51 IST" duration-ms="20219">
+  <suite started-at="2024-08-17T20:35:00 IST" name="Default suite" finished-at="2024-08-17T20:35:01 IST" duration-ms="968">
     <groups>
-      <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:amrutraibagi.CucumberRunnerClasses.CucumberTestNGTestRunner@7d9d0818]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
-      </group> <!-- cucumber -->
     </groups>
-    <test started-at="2024-08-16T18:31:30 IST" name="Default test" finished-at="2024-08-16T18:31:51 IST" duration-ms="20219">
-      <class name="amrutraibagi.CucumberRunnerClasses.CucumberTestNGTestRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:amrutraibagi.CucumberRunnerClasses.CucumberTestNGTestRunner@7d9d0818]" started-at="2024-08-16T18:31:30 IST" name="setUpClass" finished-at="2024-08-16T18:31:31 IST" duration-ms="756" status="PASS">
+    <test started-at="2024-08-17T20:35:00 IST" name="Default test" finished-at="2024-08-17T20:35:01 IST" duration-ms="968">
+      <class name="amrutraibagi.DataDrivenFromExcel.DataProviderIntegrationWithExcel">
+        <test-method signature="testCaseData(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:amrutraibagi.DataDrivenFromExcel.DataProviderIntegrationWithExcel@6ca18a14]" started-at="2024-08-17T20:35:01 IST" name="testCaseData" data-provider="DriveExcel" finished-at="2024-08-17T20:35:01 IST" duration-ms="12" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@51f18e31]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:amrutraibagi.CucumberRunnerClasses.CucumberTestNGTestRunner@7d9d0818]" started-at="2024-08-16T18:31:31 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-16T18:31:41 IST" duration-ms="9678" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Title of your scenario outline"]]>
+                <![CDATA[amrut]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Purchase Order from Ecomerce Website"]]>
+                <![CDATA[raibagi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[amrutraibagi2018@gmail.com]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:amrutraibagi.CucumberRunnerClasses.CucumberTestNGTestRunner@7d9d0818]" started-at="2024-08-16T18:31:41 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-16T18:31:51 IST" duration-ms="9656" status="PASS">
+        </test-method> <!-- testCaseData -->
+        <test-method signature="testCaseData(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:amrutraibagi.DataDrivenFromExcel.DataProviderIntegrationWithExcel@6ca18a14]" started-at="2024-08-17T20:35:01 IST" name="testCaseData" data-provider="DriveExcel" finished-at="2024-08-17T20:35:01 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Title of your scenario outline"]]>
+                <![CDATA[raibagi]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Purchase Order from Ecomerce Website"]]>
+                <![CDATA[amrut]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[amrutraibagi872@gmail.com]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:amrutraibagi.CucumberRunnerClasses.CucumberTestNGTestRunner@7d9d0818]" started-at="2024-08-16T18:31:51 IST" name="tearDownClass" finished-at="2024-08-16T18:31:51 IST" duration-ms="39" status="PASS">
+        </test-method> <!-- testCaseData -->
+        <test-method signature="testCaseData(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:amrutraibagi.DataDrivenFromExcel.DataProviderIntegrationWithExcel@6ca18a14]" started-at="2024-08-17T20:35:01 IST" name="testCaseData" data-provider="DriveExcel" finished-at="2024-08-17T20:35:01 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[raj]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pimani]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[raju123@gmail.com]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDownClass -->
-      </class> <!-- amrutraibagi.CucumberRunnerClasses.CucumberTestNGTestRunner -->
+        </test-method> <!-- testCaseData -->
+      </class> <!-- amrutraibagi.DataDrivenFromExcel.DataProviderIntegrationWithExcel -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

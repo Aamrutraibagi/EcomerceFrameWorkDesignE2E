@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="amrutraibagi.CucumberRunnerClasses.CucumberTestNGTestRunner">
+      <class name="amrutraibagi.DataDrivenFromExcel.DataProviderIntegrationWithExcel">
         <methods>
-          <include name="setUpClass"/>
-          <include name="tearDownClass"/>
-          <include name="runScenario" invocation-numbers="0 1"/>
+          <include name="testCaseData"/>
         </methods>
-      </class> <!-- amrutraibagi.CucumberRunnerClasses.CucumberTestNGTestRunner -->
+      </class> <!-- amrutraibagi.DataDrivenFromExcel.DataProviderIntegrationWithExcel -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
